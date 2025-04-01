@@ -1,10 +1,12 @@
-from flask import Flask
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
-app = Flask(__name__)
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
 
-@app.route('/')
-def hello():
-    return "Hello, World from Docker!"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+</body>
+</html>
